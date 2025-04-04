@@ -82,6 +82,7 @@ impl CommandType {
                 | CommandType::DpQuery
                 | CommandType::UpdateDps
                 | CommandType::DpQueryNew
+                | CommandType::DpRefresh
         )
     }
 
